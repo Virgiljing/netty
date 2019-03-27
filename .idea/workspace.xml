@@ -2,8 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5931fc61-19d5-40dc-ad65-e1f196ca362c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyRequestOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyResponseOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentProto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thrift/data.thrift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___club_virgilin___netty01_1_0_SNAPSHOT_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___club_virgilin___netty01_1_0_SNAPSHOT_war__exploded_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protoc_3_7_0_pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/netty01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/netty01.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fifthexample/MyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fifthexample/MyServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fifthexample/TextWebSocketFrameHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/firstexample/TestHttpServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/firstexample/TestServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/firstexample/TestServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fourthexample/MyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fourthexample/MyServerHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fourthexample/MyServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fourthexample/MyServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfo$Student$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfo$Student$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfo$Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfo$StudentOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/secondexample/MyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/secondexample/MyClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/secondexample/MyClientInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/secondexample/MyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/secondexample/MyServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/secondexample/MyserverInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/MyDataInfo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/MyDataInfo$Person$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/MyDataInfo$Person$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/MyDataInfo$Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/MyDataInfo$PersonOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/MyDataInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/TestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/TestClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/TestClientInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/TestServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/TestServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/TestServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/thirdexample/MyChatClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/thirdexample/MyChatClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/thirdexample/MyChatClientInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/thirdexample/MyChatServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/thirdexample/MyChatServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/thirdexample/MyChatServerInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/protobuf/Student.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/Student.proto" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,7 +100,14 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="netty01" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty01" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -53,46 +118,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServer.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClient.java">
+      <file leaf-file-name="Student.proto" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/proto/Student.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="25" column="98" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gradlew" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
+      <file leaf-file-name="MyRequest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyRequest.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -113,12 +159,12 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="D:\gradle-5.2.1-bin\gradle-5.2.1" />
+        <entry key="$PROJECT_DIR$" value="D:\gradle-5.2.1-bin\gradle-4.0" />
       </map>
     </option>
     <option name="myGradleVersions">
       <map>
-        <entry key="$PROJECT_DIR$" value="5.2.1" />
+        <entry key="$PROJECT_DIR$" value="4.0" />
       </map>
     </option>
     <option name="availableProjects">
@@ -177,6 +223,11 @@
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Extracts proto files from compile dependencies for includes" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractIncludeTestProto" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Generates Gradle wrapper files." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="wrapper" />
@@ -187,9 +238,24 @@
                 <option name="name" value="testClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Extracts proto files from compile dependencies for includes" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractIncludeProto" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts proto files/dependencies specified by 'protobuf' configuration" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractProto" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Proto source for 'main'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateProto" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
@@ -225,11 +291,6 @@
                 <option name="description" value="Compiles main Java source." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates a war archive with all the compiled classes, the web-app content and the libraries." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="war" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the insight into a specific dependency in root project 'netty01'." />
@@ -282,6 +343,16 @@
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Compiles Proto source for 'test'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="generateTestProto" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts proto files/dependencies specified by 'protobuf' configuration" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractTestProto" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of root project 'netty01'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
@@ -293,9 +364,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4659051406958" />
+        <entry key="$PROJECT_DIR$" value="4660237483238" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1720060192" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3126793566" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2170919358" />
       </map>
     </option>
@@ -309,6 +380,46 @@
                   <entry key="$PROJECT_DIR$">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.google.protobuf/protobuf-gradle-plugin/0.8.5/8e8a27a20c55a3e572fa5893b9485dd8b700148b/protobuf-gradle-plugin-0.8.5-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.google.protobuf/protobuf-gradle-plugin/0.8.5/5ff95a6dc5c75f995b41ce225bd947c191e924c1/protobuf-gradle-plugin-0.8.5.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.google.gradle/osdetector-gradle-plugin/1.4.0/801d1bce8a4e13a28b47a0e1bf47801ce3da0d86/osdetector-gradle-plugin-1.4.0-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.google.gradle/osdetector-gradle-plugin/1.4.0/a6bfa3b8bc6b15b8df90893876782dab3096b68f/osdetector-gradle-plugin-1.4.0.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/kr.motd.maven/os-maven-plugin/1.4.0.Final/63f34a1b0cc37a9962b7c2c1e95a405be2be0b76/os-maven-plugin-1.4.0.Final-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/kr.motd.maven/os-maven-plugin/1.4.0.Final/fb2ecdce79f677ee32680bf825c26de480fe46b/os-maven-plugin-1.4.0.Final.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-api/3.2.1/b217d5ad21e7c1712414851cca0f8db7def79fc1/maven-plugin-api-3.2.1-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.maven/maven-plugin-api/3.2.1/305cea4e9a89b12c08008fea079fcea2dda34eca/maven-plugin-api-3.2.1.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/79cfd0962de410235e9315d38d6488123e9bb299/plexus-utils-3.0.17-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.0.17/7b86f7a4ceffc8eadbb1a84207134af776f7cb95/plexus-utils-3.0.17.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.maven/maven-model/3.2.1/352f39f23f3df5fcfcfb594c502f82f29492ccf4/maven-model-3.2.1-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.maven/maven-model/3.2.1/328a3c5cfaf9b2832e6e1d21c76fcefe01e01fde/maven-model-3.2.1.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.2.1/afdc61a3e4f14c6f7db676b9d3495303f0c1812/maven-artifact-3.2.1-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.2.1/227e0c0d3b9b25dd9fce0a74b88ec212026a0fe2/maven-artifact-3.2.1.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.plexus/0.0.0.M5/d1d1ace07541404385f51343df7fc9bc4994b3a4/org.eclipse.sisu.plexus-0.0.0.M5-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.plexus/0.0.0.M5/8818cc5a4d2afde2fbc87c2a78cf1ebf5719a869/org.eclipse.sisu.plexus-0.0.0.M5.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/javax.enterprise/cdi-api/1.0/3a3b9c3e5a1ec04c0c8b82e249cee7aeb4a96f9a/cdi-api-1.0-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/javax.enterprise/cdi-api/1.0/44c453f60909dfc223552ace63e05c694215156b/cdi-api-1.0.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.sonatype.sisu/sisu-guice/3.1.0/a0a9d66dc7ee2010303d2d30dce8e46cbaa126aa/sisu-guice-3.1.0-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.sonatype.sisu/sisu-guice/3.1.0/97c87d15d749c86b2be1b9809b28321a1d926c7f/sisu-guice-3.1.0-no_aop.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.inject/0.0.0.M5/60319b927cda9b3ce34ed95a9fa759cb86dd14d3/org.eclipse.sisu.inject-0.0.0.M5-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.eclipse.sisu/org.eclipse.sisu.inject/0.0.0.M5/4f6bda3f528c60a12e70db2e7a3feee539dcc8cd/org.eclipse.sisu.inject-0.0.0.M5.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/b10462efcf1ac1915797958d479c724d1bd5008d/plexus-component-annotations-1.5.5-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-component-annotations/1.5.5/c72f2660d0cbed24246ddb55d7fdc4f7374d2078/plexus-component-annotations-1.5.5.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.4/5d2b0a5bd852103294760829538702241d186520/plexus-classworlds-2.4-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-classworlds/2.4/ef38ff5c25f83a4a02fcd9843d85f3e47012873e/plexus-classworlds-2.4.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/javax.annotation/jsr250-api/1.0/9b1fba77edd118e13c42bda43d3c993dadd52c25/jsr250-api-1.0-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/javax.annotation/jsr250-api/1.0/5025422767732a1ab45d93abfea846513d742dcf/jsr250-api-1.0.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/javax.inject/javax.inject/1/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" />
+                            <option value="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+                          </list>
+                        </option>
                         <option name="path" value="$PROJECT_DIR$" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
@@ -318,88 +429,75 @@
               <option name="name" value="netty01" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/ant-1.9.13.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/ant-launcher-1.9.13.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-api-metadata-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-base-services-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-base-services-groovy-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-build-cache-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-build-cache-packaging-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-build-option-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-cli-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-core-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-docs-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-execution-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-files-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-installation-beacon-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-jvm-services-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-kotlin-dsl-1.1.3.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-kotlin-dsl-provider-plugins-1.1.3.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-kotlin-dsl-tooling-builders-1.1.3.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-kotlin-dsl-tooling-models-1.1.3.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-launcher-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-logging-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-model-core-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-model-groovy-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-native-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-persistent-cache-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-process-services-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-resources-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-runtime-api-info-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-snapshots-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-tooling-api-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/gradle-wrapper-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-announce-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-antlr-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-build-cache-http-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-build-comparison-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-build-init-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-build-profile-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-code-quality-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-composite-builds-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-dependency-management-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-diagnostics-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-ear-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-ide-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-ide-native-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-ide-play-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-ivy-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-jacoco-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-javascript-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-language-groovy-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-language-java-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-language-jvm-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-language-native-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-language-scala-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-maven-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-osgi-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-platform-base-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-platform-jvm-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-platform-native-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-platform-play-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-plugin-development-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-plugin-use-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-plugins-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-publish-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-reporting-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-resources-gcs-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-resources-http-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-resources-s3-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-resources-sftp-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-scala-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-signing-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-test-kit-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-testing-base-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-testing-junit-platform-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-testing-jvm-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-testing-native-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-tooling-api-builders-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-tooling-native-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-version-control-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/gradle-workers-5.2.1.jar" />
-                  <option value="D:/gradle-5.2.1-bin/gradle-5.2.1/lib/plugins/ivy-2.3.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/ant-1.9.6.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/ant-launcher-1.9.6.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-base-services-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-base-services-groovy-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-cli-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-core-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-docs-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-installation-beacon-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-jvm-services-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-launcher-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-logging-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-messaging-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-model-core-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-model-groovy-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-native-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-process-services-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-resources-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-runtime-api-info-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-script-kotlin-0.9.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-script-kotlin-compiler-plugin-0.9.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-script-kotlin-tooling-builders-0.9.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-script-kotlin-tooling-models-0.9.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-tooling-api-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/gradle-wrapper-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/groovy-all-2.4.11.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-announce-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-antlr-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-build-cache-http-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-build-comparison-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-build-init-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-code-quality-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-composite-builds-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-dependency-management-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-diagnostics-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-ear-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-ide-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-ide-native-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-ide-play-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-ivy-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-jacoco-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-javascript-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-language-groovy-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-language-java-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-language-jvm-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-language-native-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-language-scala-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-maven-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-osgi-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-platform-base-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-platform-jvm-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-platform-native-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-platform-play-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-plugin-development-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-plugin-use-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-plugins-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-publish-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-reporting-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-resources-http-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-resources-s3-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-resources-sftp-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-scala-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-signing-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-test-kit-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-testing-base-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-testing-jvm-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-testing-native-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-tooling-api-builders-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/gradle-workers-4.0.jar" />
+                  <option value="D:/gradle-5.2.1-bin/gradle-4.0/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -446,17 +544,26 @@
         <option value="$PROJECT_DIR$/src/main/java/club/virgilin/fifthexample/MyServerInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
         <option value="$PROJECT_DIR$/src/main/java/club/virgilin/protobuf/DataInfo.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/club/virgilin/protobuf/DataInfoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/protobuf/Student.proto" />
         <option value="$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/MyClientInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServerInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClientInitializer.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/protobuf/Student.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClientInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClient.java" />
+        <option value="$PROJECT_DIR$/src/data.thrift" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/thrift/generated/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/thrift/PersionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/thrift/ThriftServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/thrift/ThriftClient.java" />
+        <option value="$PROJECT_DIR$/src/thrift/data.thrift" />
+        <option value="$PROJECT_DIR$/src/proto/Student.proto" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/proto/Student.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyRequest.java" />
       </list>
     </option>
   </component>
@@ -483,9 +590,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="629" />
-    <option name="y" value="153" />
-    <option name="width" value="1399" />
+    <option name="x" value="495" />
+    <option name="y" value="94" />
+    <option name="width" value="1400" />
     <option name="height" value="987" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -494,6 +601,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -504,20 +613,214 @@
             <path>
               <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+              <item name="club" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+              <item name="club" type="462c0819:PsiDirectoryNode" />
+              <item name="virgilin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+              <item name="club" type="462c0819:PsiDirectoryNode" />
+              <item name="virgilin" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="club" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="club" type="462c0819:PsiDirectoryNode" />
+              <item name="virgilin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="generated" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="club" type="462c0819:PsiDirectoryNode" />
+              <item name="virgilin" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gen-java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gen-java" type="462c0819:PsiDirectoryNode" />
+              <item name="thrift" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gen-py" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gen-py" type="462c0819:PsiDirectoryNode" />
+              <item name="py" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="virgilin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="virgilin" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -529,17 +832,22 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gradlew.bat" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/study/springboot1.5.4/mybatis-spring-boot/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.3257143" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="club.virgilin.protobuf" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\myproject\netty01\src\main" />
+      <recent name="F:\myproject\netty01\src\thrift" />
+      <recent name="F:\myproject\netty01\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="club.virgilin.sixthexample" />
@@ -548,6 +856,8 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myproject\netty01\src\main\java\club\virgilin\proto" />
+      <recent name="F:\myproject\netty01\src\main\java\club\virgilin" />
       <recent name="F:\myproject\netty01\src\main" />
     </key>
   </component>
@@ -563,53 +873,76 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestClient">
-    <configuration name="DataInfoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.virgilin.protobuf.DataInfoTest" />
+  <component name="RunManager" selected="Gradle.netty01 [generateProto]">
+    <configuration name="MyChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.virgilin.thirdexample.MyChatClient" />
       <module name="netty01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.virgilin.protobuf.*" />
+          <option name="PATTERN" value="club.virgilin.thirdexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MyServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.virgilin.fifthexample.MyServer" />
+    <configuration name="ThriftClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.virgilin.thrift.ThriftClient" />
       <module name="netty01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.virgilin.fifthexample.*" />
+          <option name="PATTERN" value="club.virgilin.thrift.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.virgilin.sixthexample.TestClient" />
+    <configuration name="ThriftServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.virgilin.thrift.ThriftServer" />
       <module name="netty01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.virgilin.sixthexample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.virgilin.sixthexample.TestServer" />
-      <module name="netty01" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.virgilin.sixthexample.*" />
+          <option name="PATTERN" value="club.virgilin.thrift.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="netty01 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="netty01 [generateProto]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateProto" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -627,7 +960,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/netty01/src/main/webapp/test.html" />
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -651,19 +983,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MyServer (2)" />
-      <item itemvalue="JavaScript Debug.test.html" />
-      <item itemvalue="Application.DataInfoTest" />
-      <item itemvalue="Application.TestServer" />
-      <item itemvalue="Application.TestClient" />
+      <item itemvalue="Application.ThriftServer" />
+      <item itemvalue="Application.ThriftClient" />
+      <item itemvalue="Application.MyChatClient" />
+      <item itemvalue="Gradle.netty01 [generateProto]" />
+      <item itemvalue="Gradle.netty01 [clean]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestClient" />
-        <item itemvalue="Application.TestServer" />
-        <item itemvalue="Application.DataInfoTest" />
-        <item itemvalue="JavaScript Debug.test.html" />
-        <item itemvalue="Application.MyServer (2)" />
+        <item itemvalue="Gradle.netty01 [clean]" />
+        <item itemvalue="Gradle.netty01 [generateProto]" />
+        <item itemvalue="Application.ThriftClient" />
+        <item itemvalue="Application.ThriftServer" />
+        <item itemvalue="Application.MyChatClient" />
       </list>
     </recent_temporary>
   </component>
@@ -685,77 +1017,112 @@
       <workItem from="1553303286158" duration="32000" />
       <workItem from="1553303531504" duration="18000" />
       <workItem from="1553303689162" duration="5102000" />
-      <workItem from="1553308895269" duration="241000" />
+      <workItem from="1553308895269" duration="3639000" />
+      <workItem from="1553476262036" duration="1292000" />
+      <workItem from="1553478429970" duration="6058000" />
+      <workItem from="1553583535399" duration="1531000" />
+      <workItem from="1553656152859" duration="3686000" />
+      <workItem from="1553679730940" duration="1884000" />
+      <workItem from="1553681695227" duration="1099000" />
+      <workItem from="1553682818140" duration="945000" />
     </task>
+    <task id="LOCAL-00001" summary=".gitignore文件的添加">
+      <created>1553309252801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553309252801</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".gitignore文件的添加">
+      <created>1553336834655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553336834655</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Thrift的应用">
+      <created>1553584435906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553584435906</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Thrift的应用">
+      <created>1553584453168</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553584453168</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28079000" />
+    <option name="totallyTimeSpent" value="47972000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="764" y="100" width="1399" height="987" extended-state="0" />
-    <editor active="true" />
+    <frame x="495" y="94" width="1400" height="987" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32916668" />
-      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.5046584" side_tool="true" weight="0.45255864" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.35619736" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.5046584" side_tool="true" weight="0.5298507" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.52771854" />
-      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.35619736" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28304705" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.26666668" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49722221" weight="0.32969153" />
-      <window_info anchor="right" id="Gradle" order="10" sideWeight="0.49534163" weight="0.33528784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30222222" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38748497" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.35619736" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.49939832" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42462686" />
+      <window_info anchor="right" id="Gradle" order="10" sideWeight="0.49534163" weight="0.46865672" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30298913" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32880434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.46137565" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Bean Validation" order="4" sideWeight="0.49861112" weight="0.32969153" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.30170575" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Build" order="14" weight="0.8672986" />
+      <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.42555556" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38043478" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38748497" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.5" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4611111" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32916668" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.35619736" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32880434" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" weight="0.32916668" />
-      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.502907" side_tool="true" weight="0.23560767" />
-      <window_info anchor="right" id="Gradle" order="10" sideWeight="0.49709302" weight="0.45298508" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36343282" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.35619736" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.5046584" side_tool="true" weight="0.5298507" />
+      <window_info anchor="right" id="Gradle" order="10" sideWeight="0.49534163" weight="0.33528784" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30373135" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49722221" weight="0.32969153" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="7" side_tool="true" />
@@ -763,66 +1130,49 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.30170575" />
       <window_info anchor="right" id="Bean Validation" order="4" sideWeight="0.49861112" weight="0.32969153" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3043478" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30222222" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=".gitignore文件的添加" />
+    <MESSAGE value="Thrift的应用" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thrift的应用" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="98" lean-forward="true" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1957">
-          <caret line="103" column="6" lean-forward="true" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -935,13 +1285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/thirdexample/MyChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/fourthexample/MyServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -1005,89 +1348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="48" column="92" selection-start-line="48" selection-start-column="87" selection-end-line="48" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/protobuf/Student.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/thirdexample/MyChatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/MyDataInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClientInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="98" selection-start-line="25" selection-start-column="98" selection-end-line="25" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1097,10 +1357,174 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="114">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/MyDataInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6042">
+          <caret line="347" column="68" selection-start-line="347" selection-start-column="68" selection-end-line="347" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="38" column="72" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestClientInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/sixthexample/TestServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/thrift/generated/DataException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/thrift/generated/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34719">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/thrift/generated/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="92" selection-start-line="48" selection-start-column="87" selection-end-line="48" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/thirdexample/MyChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/thirdexample/MyChatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.thrift/libthrift/0.12.0/2a3701fd5cb72ae1560c66a045bf5c6f5b717a31/libthrift-0.12.0-sources.jar!/org/apache/thrift/TProcessorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/thrift/data.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/thrift/ThriftServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/thrift/ThriftClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/thrift/PersionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/protobuf/Student.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/grpc/club/virgilin/sixthexample/StudentServiceGrpc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/club/virgilin/sixthexample/MyRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <folding>
+            <element signature="e#0#17826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/Student.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyRequest.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="gradleExecuteTaskHistory">
@@ -1115,7 +1539,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3257143" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1128,7 +1552,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3257143" />
               </list>
             </option>
           </splitter-proportions>
@@ -1147,11 +1571,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3257143" />
               </list>
             </option>
           </splitter-proportions>
@@ -1163,7 +1587,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3257143" />
               </list>
             </option>
           </splitter-proportions>
@@ -1187,7 +1611,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3257143" />
               </list>
             </option>
           </splitter-proportions>

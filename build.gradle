@@ -1,16 +1,19 @@
 import com.sun.org.apache.xalan.internal.xsltc.cmdline.Compile
 
-plugins {
-    id 'java'
-    id 'war'
-}
-
+//plugins {
+//    id 'java'
+//    id 'war'
+//    id "com.google.protobuf" version "0.8.8"
+//}
+apply plugin: 'com.google.protobuf'
+apply plugin: 'java'
 group 'club.virgilin'
 version '1.0-SNAPSHOT'
 
+
+
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
-
 repositories {
     mavenLocal()
     mavenCentral()
@@ -29,4 +32,37 @@ dependencies {
     // https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java
     compile group: 'com.google.protobuf', name: 'protobuf-java', version: '3.7.0'
 
+    compile 'io.grpc:grpc-netty-shaded:1.19.0'
+    compile 'io.grpc:grpc-protobuf:1.19.0'
+    compile 'io.grpc:grpc-stub:1.19.0'
+
 }
+
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.5'
+    }
+}
+
+
+protobuf {
+    protoc {
+        artifact = "com.google.protobuf:protoc:3.6.1"
+    }
+    plugins {
+        grpc {
+            artifact = 'io.grpc:protoc-gen-grpc-java:1.19.0'
+        }
+    }
+    generateProtoTasks {
+        all()*.plugins {
+            grpc {}
+        }
+    }
+}
+
+
