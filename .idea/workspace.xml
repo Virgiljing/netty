@@ -2,66 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5931fc61-19d5-40dc-ad65-e1f196ca362c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyRequestOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyResponseOrBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentProto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/Student.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thrift/data.thrift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___club_virgilin___netty01_1_0_SNAPSHOT_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___club_virgilin___netty01_1_0_SNAPSHOT_war__exploded_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_protobuf_protoc_3_7_0_pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/netty01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/netty01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/grpc/GrpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/grpc/GrpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/grpc/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StreamRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StreamRequestOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StreamResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StreamResponseOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentRequestOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentResponseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentResponseListOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentResponseOrBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fifthexample/MyServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fifthexample/MyServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fifthexample/TextWebSocketFrameHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/firstexample/TestHttpServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/firstexample/TestServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/firstexample/TestServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fourthexample/MyServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fourthexample/MyServerHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fourthexample/MyServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/fourthexample/MyServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfo$Student$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfo$Student$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfo$Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfo$StudentOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/protobuf/DataInfoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/secondexample/MyClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/secondexample/MyClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/secondexample/MyClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/secondexample/MyServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/secondexample/MyServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/secondexample/MyserverInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/MyDataInfo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/MyDataInfo$Person$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/MyDataInfo$Person$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/MyDataInfo$Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/MyDataInfo$PersonOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/MyDataInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/TestClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/TestClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/TestClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/TestServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/TestServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/sixthexample/TestServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/thirdexample/MyChatClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/thirdexample/MyChatClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/thirdexample/MyChatClientInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/thirdexample/MyChatServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/thirdexample/MyChatServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/club/virgilin/thirdexample/MyChatServerInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/protobuf/Student.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/protobuf/Student.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentProto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentServiceGrpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/Student.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/Student.proto" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -118,27 +77,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/grpc/StudentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="375">
+              <caret line="73" column="46" lean-forward="true" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3029#3030#0" expanded="true" />
+                <element signature="e#3092#3093#0" expanded="true" />
+                <element signature="e#3154#3155#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.proto" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/proto/Student.proto">
+      <file leaf-file-name="GrpcClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/grpc/GrpcClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="49">
+              <caret line="56" column="67" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2898#2899#0" expanded="true" />
+                <element signature="e#2950#2951#0" expanded="true" />
+                <element signature="e#3043#3044#0" expanded="true" />
+                <element signature="e#3095#3096#0" expanded="true" />
+                <element signature="e#3172#3173#0" expanded="true" />
+                <element signature="e#3224#3225#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyRequest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyRequest.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="GrpcServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/grpc/GrpcServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -562,8 +543,12 @@
         <option value="$PROJECT_DIR$/src/thrift/data.thrift" />
         <option value="$PROJECT_DIR$/src/proto/Student.proto" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/grpc/GrpcServer.java" />
         <option value="$PROJECT_DIR$/src/main/proto/Student.proto" />
         <option value="$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentServiceGrpc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/grpc/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/virgilin/grpc/GrpcClient.java" />
       </list>
     </option>
   </component>
@@ -589,11 +574,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="495" />
-    <option name="y" value="94" />
-    <option name="width" value="1400" />
-    <option name="height" value="987" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="569" />
+    <option name="y" value="154" />
+    <option name="width" value="1531" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -601,8 +586,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -740,44 +723,6 @@
             <path>
               <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gen-java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gen-java" type="462c0819:PsiDirectoryNode" />
-              <item name="thrift" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gen-py" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gen-py" type="462c0819:PsiDirectoryNode" />
-              <item name="py" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -800,6 +745,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="virgilin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="virgilin" type="462c0819:PsiDirectoryNode" />
+              <item name="grpc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty01" type="b2602c69:ProjectViewProjectNode" />
@@ -821,7 +775,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -838,19 +794,11 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.3257143" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="club.virgilin.protobuf" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\myproject\netty01\src\main" />
-      <recent name="F:\myproject\netty01\src\thrift" />
-      <recent name="F:\myproject\netty01\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="club.virgilin.sixthexample" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -859,6 +807,14 @@
       <recent name="F:\myproject\netty01\src\main\java\club\virgilin\proto" />
       <recent name="F:\myproject\netty01\src\main\java\club\virgilin" />
       <recent name="F:\myproject\netty01\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="club.virgilin.sixthexample" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\myproject\netty01\src\main" />
+      <recent name="F:\myproject\netty01\src\thrift" />
+      <recent name="F:\myproject\netty01\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -873,31 +829,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.netty01 [generateProto]">
-    <configuration name="MyChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.virgilin.thirdexample.MyChatClient" />
+  <component name="RunManager" selected="Application.GrpcClient">
+    <configuration name="GrpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.virgilin.grpc.GrpcClient" />
       <module name="netty01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="club.virgilin.thirdexample.*" />
+          <option name="PATTERN" value="club.virgilin.grpc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="GrpcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="club.virgilin.grpc.GrpcServer" />
+      <module name="netty01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="club.virgilin.grpc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="ThriftClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="club.virgilin.thrift.ThriftClient" />
-      <module name="netty01" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="club.virgilin.thrift.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ThriftServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="club.virgilin.thrift.ThriftServer" />
       <module name="netty01" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -983,19 +939,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ThriftServer" />
       <item itemvalue="Application.ThriftClient" />
-      <item itemvalue="Application.MyChatClient" />
       <item itemvalue="Gradle.netty01 [generateProto]" />
       <item itemvalue="Gradle.netty01 [clean]" />
+      <item itemvalue="Application.GrpcServer" />
+      <item itemvalue="Application.GrpcClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GrpcClient" />
+        <item itemvalue="Application.GrpcServer" />
         <item itemvalue="Gradle.netty01 [clean]" />
         <item itemvalue="Gradle.netty01 [generateProto]" />
         <item itemvalue="Application.ThriftClient" />
-        <item itemvalue="Application.ThriftServer" />
-        <item itemvalue="Application.MyChatClient" />
       </list>
     </recent_temporary>
   </component>
@@ -1024,7 +980,11 @@
       <workItem from="1553656152859" duration="3686000" />
       <workItem from="1553679730940" duration="1884000" />
       <workItem from="1553681695227" duration="1099000" />
-      <workItem from="1553682818140" duration="945000" />
+      <workItem from="1553682818140" duration="1364000" />
+      <workItem from="1553735557420" duration="2662000" />
+      <workItem from="1553756214574" duration="763000" />
+      <workItem from="1554198594908" duration="1334000" />
+      <workItem from="1554262390538" duration="4618000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore文件的添加">
       <created>1553309252801</created>
@@ -1054,85 +1014,92 @@
       <option name="project" value="LOCAL" />
       <updated>1553584453168</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="protocbul pluging的使用">
+      <created>1553683846050</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553683846050</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47972000" />
+    <option name="totallyTimeSpent" value="57768000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="495" y="94" width="1400" height="987" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.35619736" />
-      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.5046584" side_tool="true" weight="0.5298507" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="14" weight="0.26666668" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.49722221" weight="0.32969153" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30222222" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32880434" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.38748497" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.35619736" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.49939832" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42462686" />
-      <window_info anchor="right" id="Gradle" order="10" sideWeight="0.49534163" weight="0.46865672" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.35619736" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.5064935" side_tool="true" weight="0.46791044" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16555555" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.35555556" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.47444445" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31236672" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.49722221" weight="0.32969153" />
+      <window_info anchor="right" id="Gradle" order="10" sideWeight="0.4935065" weight="0.46791044" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32880434" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.30170575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.26666668" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Bean Validation" order="4" sideWeight="0.49861112" weight="0.32969153" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.30170575" />
+      <window_info id="Web" order="7" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" anchor="bottom" id="Build" order="14" visible="true" weight="0.42555556" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.26666668" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38748497" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49945828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4611111" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4751323" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.35619736" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32880434" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.30170575" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.35619736" />
-      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.5046584" side_tool="true" weight="0.5298507" />
-      <window_info anchor="right" id="Gradle" order="10" sideWeight="0.49534163" weight="0.33528784" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.30373135" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.35555556" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.50711745" side_tool="true" weight="0.46855012" />
+      <window_info anchor="right" id="Gradle" order="10" sideWeight="0.49288255" weight="0.46791044" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.43731344" />
       <window_info anchor="right" id="Database" order="5" sideWeight="0.49722221" weight="0.32969153" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32916668" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.30170575" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31" />
       <window_info anchor="right" id="Bean Validation" order="4" sideWeight="0.49861112" weight="0.32969153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30222222" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1170,51 +1137,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".gitignore文件的添加" />
     <MESSAGE value="Thrift的应用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thrift的应用" />
+    <MESSAGE value="protocbul pluging的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="protocbul pluging的使用" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="122" column="84" lean-forward="true" selection-start-line="122" selection-start-column="84" selection-end-line="122" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/io.netty/netty-all/4.1.34.Final/fafad657416ab88372d97d593128f04de04626ae/netty-all-4.1.34.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="47" column="75" lean-forward="true" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/firstexample/TestHttpServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/firstexample/TestServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/firstexample/TestServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/secondexample/MyServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1502,29 +1428,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/grpc/club/virgilin/sixthexample/StudentServiceGrpc.java">
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/grpc/club/virgilin/sixthexample/StudentServiceGrpc.java" />
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/club/virgilin/sixthexample/MyRequest.java" />
+    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/grpc/club/virgilin/proto/StudentServiceGrpc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456" />
+        <state relative-caret-position="-1121">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/proto/main/java/club/virgilin/sixthexample/MyRequest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/io.grpc/grpc-core/1.19.0/406f1a969279432e0e0e19b8bdb3ccbb4bad266d/grpc-core-1.19.0-sources.jar!/io/grpc/ManagedChannelBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
+        <state relative-caret-position="3211">
+          <caret line="188" column="11" selection-start-line="188" selection-start-column="11" selection-end-line="188" selection-end-column="11" />
           <folding>
-            <element signature="e#0#17826#0" expanded="true" />
+            <element signature="e#7095#7096#0" expanded="true" />
+            <element signature="e#7130#7131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/proto/Student.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="228">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/proto/MyRequest.java">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/proto/StudentServiceGrpc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="90" column="37" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/grpc/GrpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/grpc/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="73" column="46" lean-forward="true" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3029#3030#0" expanded="true" />
+            <element signature="e#3092#3093#0" expanded="true" />
+            <element signature="e#3154#3155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/virgilin/grpc/GrpcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="56" column="67" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2898#2899#0" expanded="true" />
+            <element signature="e#2950#2951#0" expanded="true" />
+            <element signature="e#3043#3044#0" expanded="true" />
+            <element signature="e#3095#3096#0" expanded="true" />
+            <element signature="e#3172#3173#0" expanded="true" />
+            <element signature="e#3224#3225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="gradleExecuteTaskHistory">
