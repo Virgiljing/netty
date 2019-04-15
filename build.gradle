@@ -58,9 +58,12 @@ protobuf {
             artifact = 'io.grpc:protoc-gen-grpc-java:1.19.0'
         }
     }
+    generateProtoTasks.generatedFilesBaseDir = "src"
     generateProtoTasks {
         all()*.plugins {
-            grpc {}
+            grpc {
+                setOutputSubDir 'java'
+            }
         }
     }
 }
